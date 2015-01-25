@@ -29,10 +29,15 @@ The tidy data file uses the long skinny format, with the features listed in one 
 
 ## Summary of script
 The run_analysis.R script carries out the instructions, in order, from the course assignment (reproduced below). In summary:
+
 1. It reads in the subject, X, and y data sets for both train and test, creates a single table for the train and test data separately (using cbind), combines the train and test data (using rbind). 
+
 2. It then reads in the feature names, turns them into valid R column names, and applies those column names to the data set. These names are then used to extract all columns with the strings 'mean' or 'std' in their names.
+
 3. The y data column is replaced with named activities from the activity_labels.txt file
+
 4. The column names are cleaned up by replacing less obvious abbreviations with words, putting everything in camelCase for readability, and removing duplicate words where appropriate.
+
 5. Finally, it creates and outputs a new tidy data set formed by summarizing the data by subject and activity.
 
 The comments in the script outline the procedure in finer detail.
