@@ -23,50 +23,95 @@ Labels:
 
 Measurements (time denotes time-domain measurements, freq denotes frequency domain signals):
 "timeBodyAccMeanXYZ" - Mean linear acceleration of the body
+
 "timeBodyAccStdXYZ" - Standard deviation (Std) of the body
+
 "timeGravityAccMeanXYZ" - Mean acceleration due to gravity
+
 "timeGravityAccStdXYZ" - Mean Std of acceleration due to gravity
+
 "timeBodyAccJerkMeanXYZ" - Mean jerk of the body
+
 "timeBodyAccJerkStdXYZ" - Mean Std of the jerk of the body
+
 "timeBodyGyroMeanXYZ" - Mean of angular velocity
+
 "timeBodyGyroStdXYZ" - Mean Std of angular velocity
+
 "timeBodyGyroJerkMeanXYZ" - Mean jerk of angular velocity
+
 "timeBodyGyroJerkStdXYZ" - Mean Std of jerk of angular velocity
+
 "timeBodyAccMagMean" - Mean of the magnitude of the linear acceleration of the body
+
 "timeBodyAccMagStd" - Mean Std of the magnitude of the linear acceleration of the body
+
 "timeGravityAccMagMean" - Mean of the magnitude of acceleration due to gravity
+
 "timeGravityAccMagStd" - Mean Std of the magnitude of acceleration due to gravity
+
 "timeBodyAccJerkMagMean" - Mean of the magnitude of the jerk of the body
+
 "timeBodyAccJerkMagStd" - Mean Std of the magnitude of the jerk of the body
+
 "timeBodyGyroMagMean" - Mean of the magnitude of the angular velocity
+
 "timeBodyGyroMagStd" - Mean Std of the magnitude of the angular velocity
+
 "timeBodyGyroJerkMagMean" - Mean of the magnitude of the jerk of angular velocity
+
 "timeBodyGyroJerkMagStd" - Mean Std of the magnitude of the jerk of angular velocity
+
 "freqBodyAccMeanXYZ" - Mean linear acceleration of the body
+
 "freqBodyAccStdXYZ" - Standard deviation (Std) of the body
+
 "freqBodyAccMeanFreqXYZ" - Mean weighted average of (freq) linear acceleration of the body
+
 "freqBodyAccJerkMeanXYZ" - Mean jerk of the body
+
 "freqBodyAccJerkStdXYZ" - Mean Std of the jerk of the body
+
 "freqBodyAccJerkMeanFreqXYZ" - Mean weighted average of (freq) jerk of the body
+
 "freqBodyGyroMeanXYZ" - Mean of angular velocity
+
 "freqBodyGyroStdXYZ" - Mean Std of angular velocity
+
 "freqBodyGyroMeanFreqXYZ" - Mean weighted average of (freq) angular velocity of the body
+
 "freqBodyAccMagMean" - Mean of the magnitude of the linear acceleration of the body
+
 "freqBodyAccMagStd" - Mean Std of the magnitude of the linear acceleration of the body
+
 "freqBodyAccMagMeanFreq" - Mean wighted average of the magnitude of the (freq) linear acceleration of the body
+
 "freqBodyAccJerkMagMean" - Mean of the magnitude of the jerk of the body
+
 "freqBodyAccJerkMagStd" - Mean Std of the magnitude of the jerk of the body
+
 "freqBodyAccJerkMagMeanFreq" - Mean weighted average of the magnitude of the (freq) jerk of the body
+
 "freqBodyGyroMagMean" - Mean of the magnitude of the angular velocity
+
 "freqBodyGyroMagStd" - Mean Std of the magnitude of the angular velocity
+
 "freqBodyGyroMagMeanFreq" - Mean weighted average of the magnitude of the (freq) angular velocity
+
 "freqBodyGyroJerkMagMean" - Mean of the magnitude of the jerk of angular velocity
+
 "freqBodyGyroJerkMagStd" - Mean Std of the magnitude of the jerk of angular velocity
+
 "freqBodyGyroJerkMagMeanFreq" - Mean weighted average of the magnitude of the (freq) jerk of angular velocity
+
 "angleTimeBodyAccMeanGravity" - Mean of angle between body linear acceleration mean and gravity mean
+
 "angleTimeBodyAccJerkMeanGravityMean" - Mean of angle between linear jerk mean and gravity mean
+
 "angleTimeBodyGyroMeanGravityMean" - Mean of angle between angulary velocity mean and gravity mean
+
 "angleTimeBodyGyroJerkMeanGravityMean" - Mean of angle between angular jerk mean and gravity mean
+
 "angleXYZGravityMean" - Mean of angle between the cartesian coordinate (X, Y, or Z) and gravity mean
 
 
