@@ -15,14 +15,14 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 This code requires the data.table and reshape2 packages to be installed. This can be found on the CRAN website or, if configured, installed via the command install.packages(package_name). Load it using the command library(package_name).
 
 ### Instructions to run
-To run the run_analysis.R script, load the script, then set the working directory to be the UCI HAR Dataset directory. All paths to read data are written relative to this directory.
+To run the run_analysis.R script, load the script, then set the working directory to be the UCI HAR Dataset directory. All paths to read data are written relative to this directory. Then, run the script via the command run_analysis().
 
 No inputs are required. The output is the tidy data set as a data table.
 
 ### Notes
 Details of the raw data set, how it was prepared (in a high level overview), what the features are, etc., can be found in the features_info.txt and README.txt that accompany the raw data on download. The location for the download can be found in the Project Instructions of this README file.
 
-Information about the variables in the data, choices made in creating the tidy data file, and other information regarding the analysis can be fonud in the CodeBook.md file.
+Information about the variables in the data, choices made in creating the tidy data file, and other information regarding the analysis can be found in the CodeBook.md file.
 
 ### Tidy data file
 The tidy data file uses the long skinny format, with the features listed in one column (called 'variable') and the data listed in a column called 'value'. The 'subject' and 'activity' columns label the data.

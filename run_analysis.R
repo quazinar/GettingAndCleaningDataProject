@@ -112,6 +112,8 @@ run_analysis <- function(){
     ## each activity and subject.
     
     ## Get a raw summary of the data
+    ## Note that .SD indicates "whichever column you're working with at the moment,"
+    ## and will step through all columns not in the "by" group.
     tidyData <- labeled_data[,lapply(.SD,mean),by=c('activity','subject')]
     
     ## Separate the grouping columns from the measurement columns
